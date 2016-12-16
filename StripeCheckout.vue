@@ -141,7 +141,7 @@
                 self.stripeEmail = token.email;
 
                 Vue.nextTick(function() {
-                    this.$emit('submit')
+                    self.$emit('submit')
                 //    document.querySelector('#vue-stripe').parentElement.submit();
                })
 
